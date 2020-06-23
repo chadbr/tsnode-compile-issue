@@ -4,6 +4,13 @@ shows compile issues between tsc and ts-node using > es6
 
 # steps to reproduce
 - clone the repo
+
+notice target is "ES2020"
+```json
+  "compilerOptions": {
+    "target": "ES2020",
+```
+
 - run `yarn install`
 - run `yarn build`
 
