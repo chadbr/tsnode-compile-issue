@@ -20,3 +20,15 @@ tsnode-compile-issue\src\code-list.logic.ts:12
 
 SyntaxError: Unexpected token '?'
 ```
+
+----
+
+- change tsconfig target to es6
+
+```json
+  "compilerOptions": {
+    "target": "es6",
+```
+
+- run `yarn test`
+ code compiles / runs fine (yes, tests fail 😛)
