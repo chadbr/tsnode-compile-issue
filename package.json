@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "debug": "^4.1.1",
-    "nconf": "^0.10.0",
+    "nconf": "^0.11.4",
     "tslib": "^2.0.0"
   }
 }
